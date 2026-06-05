@@ -17,3 +17,12 @@ systemctl --user daemon-reload
 systemctl --user enable --now screamcpu@YOUR_USER.service
 
 ```
+folder  structure 
+```bash
+➜  screamcpu tree       
+.
+├── screamcpu.py
+└── sounds
+    ├── hot.mp3
+    ├── meltdown.mp3
+    └── warm.mp3
